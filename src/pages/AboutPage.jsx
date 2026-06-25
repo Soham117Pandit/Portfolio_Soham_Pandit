@@ -23,7 +23,7 @@ export default function AboutPage({ setRoute }) {
 
       <div className="container-main">
         {/* Navigation back */}
-        <button 
+        <button
           onClick={() => { setRoute('/'); window.scrollTo(0, 0); }}
           style={{
             background: 'none',
@@ -60,17 +60,16 @@ export default function AboutPage({ setRoute }) {
           gap: '48px',
           marginBottom: '80px'
         }} className="md:flex md:flex-row md:items-start">
-          
+
           <div style={{ flex: 3 }}>
             <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '22px', fontWeight: 700, marginBottom: '16px', color: 'var(--text)' }}>
               Architecting Production-First AI Solutions
             </h3>
             <p style={{ fontSize: '14.5px', color: 'var(--text-secondary)', lineHeight: 1.75, marginBottom: '20px' }}>
-              I am a second-year Artificial Intelligence & Data Science engineering student at AISSMS IOIT, Pune. My journey started with a fascination for algorithmic limits, which quickly evolved into building end-to-end software architectures. 
+              I am a Third-year Computer Science engineering student at AISSMS IOIT, Pune. My journey started with a fascination for algorithmic limits, which quickly evolved into building end-to-end software architectures.
             </p>
             <p style={{ fontSize: '14.5px', color: 'var(--text-secondary)', lineHeight: 1.75, marginBottom: '20px' }}>
-              I specialize in combining AI capabilities (LLMs, neural networks, and computer vision) with efficient backend infrastructure and responsive frontend rendering. By maintaining strict control over data routing flows and latency overheads, I build platforms that are ready for immediate real-world usage.
-            </p>
+              I specialize in building AI-powered applications by combining intelligent automation, modern full-stack development, and scalable architectures. Whether it's generative AI, computer vision, or secure web platforms, I focus on creating reliable, production-ready solutions that solve real-world problems with precision.            </p>
             <div style={{
               display: 'flex',
               alignItems: 'center',
@@ -83,7 +82,7 @@ export default function AboutPage({ setRoute }) {
               fontSize: '13px'
             }}>
               <GraduationCap size={20} style={{ color: 'var(--accent)' }} />
-              <span style={{ color: 'var(--text-secondary)' }}>AISSMS Institute of Information Technology, Pune (2023 - 2027)</span>
+              <span style={{ color: 'var(--text-secondary)' }}>AISSMS Institute of Information Technology, Pune (2024 - 2028)</span>
             </div>
           </div>
 
@@ -140,7 +139,7 @@ export default function AboutPage({ setRoute }) {
             gap: '20px'
           }}>
             {evolution.map((evo, idx) => (
-              <div 
+              <div
                 key={idx}
                 style={{
                   background: 'var(--bg-card)',
@@ -158,7 +157,7 @@ export default function AboutPage({ setRoute }) {
                   height: '100%',
                   background: 'var(--accent)'
                 }} />
-                
+
                 <span style={{
                   fontFamily: 'var(--font-heading)',
                   fontSize: '9px',
