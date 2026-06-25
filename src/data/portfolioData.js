@@ -394,7 +394,11 @@ export const portfolioData = {
       { name: "Machine Learning Industrial Program", file: "/certificates/internship.pdf" },
       { name: "Data Science Industrial Program", file: "/certificates/internship2.pdf" },
       { name: "Smart India Hackathon 2025", file: "/certificates/sih.pdf" },
-      { name: "Techathon 3.0", file: "/certificates/techathon.pdf" }
+      { name: "Techathon 3.0", file: "/certificates/techathon.pdf" },
+      { name: "The Joy of Computing using Python [NPTEL]", file: "/certificates/The Joy of Computing using Python.pdf" },
+      { name: "DRUPAL TEST ", file: "/certificates/DRUPAL TEST.pdf" },
+      { name: "Java full stack virtual intership", file: "/certificates/virtual_internship.pdf" },
+
     ],
     other: [
       // Add incoming non-technical or other credentials here
